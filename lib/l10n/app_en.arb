@@ -1,0 +1,952 @@
+{
+  "@@locale": "en",
+  "about": "About",
+  "aboutTagline": "Understand, organize and control your money.",
+  "active": "Active",
+  "activeHint": "Inactive payments are not recorded",
+  "addBudget": "Add budget",
+  "addDebt": "Add debt",
+  "addMoney": "Add money",
+  "addRate": "Add rate",
+  "addRecurring": "Add recurring",
+  "addTransaction": "Add transaction",
+  "aiBalance": "Your current balance is {amount}.",
+  "@aiBalance": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "aiBalanceSeparate": "Your balance by currency: {list}. Add an exchange rate to see a combined total.",
+  "@aiBalanceSeparate": {
+    "placeholders": {
+      "list": {
+        "type": "String"
+      }
+    }
+  },
+  "aiBudgetCritical": "{name}: {percent}% used, only {remaining} left.",
+  "@aiBudgetCritical": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "String"
+      },
+      "remaining": {
+        "type": "String"
+      }
+    }
+  },
+  "aiBudgetExceeded": "{name}: {percent}% used — over the limit by {amount}.",
+  "@aiBudgetExceeded": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "aiBudgetOk": "{name}: you are within budget — {percent}% used, {remaining} left (about {daily} per day).",
+  "@aiBudgetOk": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "String"
+      },
+      "remaining": {
+        "type": "String"
+      },
+      "daily": {
+        "type": "String"
+      }
+    }
+  },
+  "aiBudgetWarning": "{name}: {percent}% used, {remaining} left.",
+  "@aiBudgetWarning": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "String"
+      },
+      "remaining": {
+        "type": "String"
+      }
+    }
+  },
+  "aiCategoryIncrease": "{category} spending is {percent}% higher than usual: {current} so far vs a typical {baseline}.",
+  "@aiCategoryIncrease": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "String"
+      },
+      "current": {
+        "type": "String"
+      },
+      "baseline": {
+        "type": "String"
+      }
+    }
+  },
+  "aiCategorySpend": "You spent {amount} on {category} {period} — {percent}% of expenses across {count} records.",
+  "@aiCategorySpend": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      },
+      "period": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiCategorySpendNone": "There are no {category} expenses {period}.",
+  "@aiCategorySpendNone": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      },
+      "period": {
+        "type": "String"
+      }
+    }
+  },
+  "aiCompareLess": "In the first {days} days of this month you spent {current}, {percent}% less than in the same days last month ({previous}).",
+  "@aiCompareLess": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "current": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "String"
+      },
+      "previous": {
+        "type": "String"
+      }
+    }
+  },
+  "aiCompareMore": "In the first {days} days of this month you spent {current}, {percent}% more than in the same days last month ({previous}).",
+  "@aiCompareMore": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "current": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "String"
+      },
+      "previous": {
+        "type": "String"
+      }
+    }
+  },
+  "aiCompareNoPrevExpense": "In the first {days} days of this month you spent {current}. Last month had no expenses in the same days.",
+  "@aiCompareNoPrevExpense": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "current": {
+        "type": "String"
+      }
+    }
+  },
+  "aiCompareSame": "In the first {days} days of this month you spent {current}, about the same as last month ({previous}).",
+  "@aiCompareSame": {
+    "placeholders": {
+      "days": {
+        "type": "int"
+      },
+      "current": {
+        "type": "String"
+      },
+      "previous": {
+        "type": "String"
+      }
+    }
+  },
+  "aiDebtOverdue": "Overdue: {count}.",
+  "@aiDebtOverdue": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiDebtOverview": "You owe {owe} in total; others owe you {owed}. Open debts: {active}.",
+  "@aiDebtOverview": {
+    "placeholders": {
+      "owe": {
+        "type": "String"
+      },
+      "owed": {
+        "type": "String"
+      },
+      "active": {
+        "type": "int"
+      }
+    }
+  },
+  "aiDisclaimer": "ℹ This is informational guidance based on your records, not professional financial advice.",
+  "aiError": "Sorry, I could not analyse your data right now. Please try again.",
+  "aiGoalMonthly": "Saving {amount} per month will get you there on time.",
+  "@aiGoalMonthly": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "aiGoalProgress": "“{name}”: {percent}% reached, {remaining} to go.",
+  "@aiGoalProgress": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "String"
+      },
+      "remaining": {
+        "type": "String"
+      }
+    }
+  },
+  "aiGreeting": "Hello! I can analyse your spending, budgets, savings goals and debts. Try one of the suggested questions below.",
+  "aiHelp": "I can answer questions like:\n• Where did most of my money go?\n• How much did I spend on food this month?\n• How much did I save?\n• Compare with last month\n• How is my budget?\n• Any unusual spending?\n• How are my goals and debts?\n• How can I save money?",
+  "aiLargestExpense": "Your largest expense was “{title}” — {amount} on {date} ({category}).",
+  "@aiLargestExpense": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      },
+      "date": {
+        "type": "String"
+      },
+      "category": {
+        "type": "String"
+      }
+    }
+  },
+  "aiNextCategories": "Next: {list}.",
+  "@aiNextCategories": {
+    "placeholders": {
+      "list": {
+        "type": "String"
+      }
+    }
+  },
+  "aiNoBudgets": "You haven’t set a budget yet. Set a monthly limit in Budgets and I’ll track it for you.",
+  "aiNoDebts": "You have no debt records.",
+  "aiNoExpenses": "No expenses are recorded for this period.",
+  "aiNoGoals": "You don’t have any active savings goals.",
+  "aiNoIncome": "No income is recorded for this period.",
+  "aiNoPreviousMonth": "There is no data for previous months yet, so I can’t make a comparison.",
+  "aiNoTransactions": "I don’t have enough data yet. Add a few transactions and I’ll be able to analyse your spending.",
+  "aiNoUnusual": "I don’t see any unusual increases in your spending this month.",
+  "aiOverspent": "Your expenses {period} exceeded your income by {amount}.",
+  "@aiOverspent": {
+    "placeholders": {
+      "period": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "aiPeriodTotal": "Expenses {period}: {expense}. Income: {income}. Records: {count}.",
+  "@aiPeriodTotal": {
+    "placeholders": {
+      "period": {
+        "type": "String"
+      },
+      "expense": {
+        "type": "String"
+      },
+      "income": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "aiRisingTrend": "{category} expenses have grown for three months in a row.",
+  "@aiRisingTrend": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      }
+    }
+  },
+  "aiSaved": "The difference between your income and expenses {period} is {amount}.",
+  "@aiSaved": {
+    "placeholders": {
+      "period": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "aiSavingsRate": "That is {percent}% of your income.",
+  "@aiSavingsRate": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "aiSuggest1": "Where did most of my money go this month?",
+  "aiSuggest2": "How much did I save this month?",
+  "aiSuggest3": "How can I save money?",
+  "aiSuggest4": "Compare with last month",
+  "aiSuggest5": "How is my budget?",
+  "aiSuggest6": "Any unusual spending?",
+  "aiSuggestLimit": "You spend about {average} per month on {category}. A monthly limit of {suggested} could help you save.",
+  "@aiSuggestLimit": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      },
+      "average": {
+        "type": "String"
+      },
+      "suggested": {
+        "type": "String"
+      }
+    }
+  },
+  "aiTipCreateGoal": "Create a savings goal — a clear target makes saving easier to keep up.",
+  "aiTipIncrease": "Watch this increase: {text}",
+  "@aiTipIncrease": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "aiTipKeepSaving": "You are keeping {percent}% of your income this month — keep it up.",
+  "@aiTipKeepSaving": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "aiTipSaveMore": "You are setting aside less than 10% of your income. Try moving a fixed amount to a savings goal right after you get paid.",
+  "aiTipTopCategory": "Start with your largest category. {text} Setting a limit for it usually has the biggest effect.",
+  "@aiTipTopCategory": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "aiTipsIntro": "Based on your records:",
+  "aiTopCategory": "Most of your spending {period} went to {category}: {amount}, which is {percent}% of all expenses.",
+  "@aiTopCategory": {
+    "placeholders": {
+      "period": {
+        "type": "String"
+      },
+      "category": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "aiUnknown": "I’m not sure I understood. I can tell you about your spending, income, savings, budgets, goals and debts — try “Where did most of my money go this month?”",
+  "alertThresholds": "Alert thresholds",
+  "all": "All",
+  "allCategories": "All categories",
+  "allExpenses": "All expenses",
+  "allTransactions": "All transactions",
+  "amount": "Amount",
+  "anyDate": "Any date",
+  "appTitle": "HisobAI",
+  "appliesTo": "Applies to",
+  "apply": "Apply",
+  "askAssistant": "Ask assistant",
+  "askHint": "Ask a question…",
+  "assistantEmptyBody": "I analyse your transactions, budgets, goals and debts to answer questions and suggest improvements.",
+  "assistantEmptyTitle": "Ask about your money",
+  "assistantLocalNote": "This assistant runs entirely on your device using built-in rules. It does not use an online AI service and never sends your data anywhere.",
+  "assistantSubtitle": "Offline · based on your records",
+  "assistantTitle": "AI Assistant",
+  "assistantTyping": "Assistant is typing",
+  "availableAmount": "Available: {amount}",
+  "@availableAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "avgDailySpending": "Avg. daily spending",
+  "backupAndSync": "Backup & sync",
+  "backupNow": "Back up now",
+  "backupSaved": "Backup saved",
+  "backupUnencryptedNote": "Backup files are not encrypted and contain your financial records.",
+  "balanceSeparateNote": "Shown per currency — add a USD/UZS rate to combine",
+  "budgetAlertBody": "{name}: {percent}% of the monthly limit used.",
+  "@budgetAlertBody": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "budgetAlerts": "Budget alerts",
+  "budgetExceededTitle": "Budget exceeded",
+  "budgetExplain": "A monthly budget is a spending limit that applies to every month. HisobAI compares it with your actual expenses.",
+  "budgetLevelCritical": "{percent}% used — you are close to the limit",
+  "@budgetLevelCritical": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "budgetLevelExceeded": "Budget exceeded",
+  "budgetLevelWarning": "{percent}% used — keep an eye on spending",
+  "@budgetLevelWarning": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "budgetSaved": "Budget saved",
+  "budgetStandingNote": "The limit repeats every month until you change or delete it.",
+  "budgetUnconvertedNote": "Some expenses in another currency are not counted — add an exchange rate.",
+  "budgetWarningTitle": "Budget warning",
+  "budgets": "Budgets",
+  "builtIn": "Built-in",
+  "byDate": "By {date}",
+  "@byDate": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "cancel": "Cancel",
+  "catBusiness": "Business",
+  "catCommunication": "Communication",
+  "catEducation": "Education",
+  "catEntertainment": "Entertainment",
+  "catFood": "Food",
+  "catFreelance": "Freelance",
+  "catGift": "Gift",
+  "catHealth": "Health",
+  "catHousing": "Housing",
+  "catInvestment": "Investment",
+  "catOtherExpense": "Other",
+  "catOtherIncome": "Other",
+  "catPersonalCare": "Personal care",
+  "catSalary": "Salary",
+  "catShopping": "Shopping",
+  "catTransport": "Transport",
+  "catTravel": "Travel",
+  "catUtilities": "Utilities",
+  "categories": "Categories",
+  "categoriesSelected": "Categories: {count}",
+  "@categoriesSelected": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "category": "Category",
+  "categoryDeleted": "Category deleted",
+  "categoryDistribution": "Category distribution",
+  "categoryLimits": "Category limits",
+  "clear": "Clear",
+  "clearConversation": "Clear conversation",
+  "clearConversationBody": "All messages will be deleted from this device.",
+  "close": "Close",
+  "cloudBackup": "Cloud backup",
+  "cloudBackupDone": "Cloud backup completed",
+  "cloudConsent": "I agree to store my backup in the cloud",
+  "cloudDeleted": "Cloud backup deleted",
+  "cloudExplain": "Stores an encrypted-in-transit copy of your data in Firebase under an anonymous identity tied to this installation. If you uninstall the app, that copy can no longer be accessed — keep a backup file too.",
+  "cloudNotConfigured": "Cloud backup is not configured in this build. Everything else works offline; use the backup file to keep a copy.",
+  "color": "Color",
+  "completed": "Completed",
+  "completedGoals": "Completed",
+  "confirm": "Confirm",
+  "conversionPolicy": "Conversion policy: UZS and USD are never added directly. Each transaction is converted with the latest rate effective on its date; if it predates all rates, the oldest rate is used. Your balance is converted with the latest rate. Without any rate, totals are shown per currency.",
+  "conversionPolicyShort": "Each transaction is converted with the latest rate effective on its date (oldest rate if earlier than all rates).",
+  "created": "Created",
+  "criticalAt": "Critical at",
+  "currency": "Currency",
+  "customRange": "Custom range",
+  "daily": "Daily",
+  "dailySpending": "Daily spending",
+  "data": "Data",
+  "dataReset": "All data was deleted",
+  "date": "Date",
+  "debt": "Debt",
+  "debtAccountingNote": "Debts are tracked separately: creating a debt or recording a repayment does not change your balance, income or expenses.",
+  "debtActive": "Active",
+  "debtCompleted": "Completed",
+  "debtIOwe": "I owe",
+  "debtOverdue": "Overdue",
+  "debtOwedToMe": "Owed to me",
+  "debtSaved": "Debt saved",
+  "debts": "Debts",
+  "delete": "Delete",
+  "deleteBudgetBody": "Your transactions are not affected.",
+  "deleteBudgetTitle": "Delete budget?",
+  "deleteCategoryBody": "This category is not used by any transaction.",
+  "deleteCategoryInUse": "{count} transactions use this category. They will be moved to “Other”.",
+  "@deleteCategoryInUse": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleteCategoryTitle": "Delete category?",
+  "deleteCloudBody": "Your local data is not affected.",
+  "deleteCloudCopy": "Delete cloud copy",
+  "deleteCloudTitle": "Delete cloud backup?",
+  "deleteDebtBody": "The debt and all its repayments will be deleted.",
+  "deleteDebtTitle": "Delete debt?",
+  "deleteEntryBody": "The saved amount will be recalculated.",
+  "deleteEntryTitle": "Delete entry?",
+  "deleteGoalBody": "The goal and its history will be deleted. Your transactions are not affected.",
+  "deleteGoalTitle": "Delete goal?",
+  "deleteRateBody": "Converted totals will be recalculated with the remaining rates.",
+  "deleteRateTitle": "Delete rate?",
+  "deleteRecurringBody": "Already recorded transactions are kept. Future payments will not be created.",
+  "deleteRecurringTitle": "Delete recurring payment?",
+  "deleteRepaymentBody": "The remaining amount will be recalculated.",
+  "deleteRepaymentTitle": "Delete repayment?",
+  "deleteTransactionBody": "Balances, budgets and statistics will be recalculated. This cannot be undone.",
+  "deleteTransactionTitle": "Delete transaction?",
+  "description": "Description",
+  "descriptionOptional": "Description (optional)",
+  "disclaimerBody": "Insights and recommendations are informational only and are not professional financial advice.",
+  "disclaimerTitle": "Not financial advice",
+  "displayName": "Display name",
+  "displayNameHint": "How should we greet you?",
+  "displayNameOptional": "Your name (optional)",
+  "dueDate": "Due date",
+  "dueDateOptional": "Due date (optional)",
+  "dueOn": "due {date}",
+  "@dueOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "edit": "Edit",
+  "editBudget": "Edit budget",
+  "editCategory": "Edit category",
+  "editDebt": "Edit debt",
+  "editGoal": "Edit goal",
+  "editRate": "Edit rate",
+  "editRecurring": "Edit recurring payment",
+  "editTransaction": "Edit transaction",
+  "effectiveDate": "Effective date",
+  "effectiveFrom": "From {date}",
+  "@effectiveFrom": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "emptyDebtsBody": "Track money you borrowed or lent and record repayments as they happen.",
+  "emptyDebtsTitle": "Nothing here",
+  "emptyGoalsBody": "Saving for a laptop, travel or an emergency fund? Create a goal and track every step.",
+  "emptyGoalsTitle": "No savings goals yet",
+  "emptyRecurringBody": "Add rent, subscriptions, utilities or regular income — HisobAI records them automatically when they are due.",
+  "emptyRecurringTitle": "No recurring payments",
+  "emptyStatsBody": "Charts are built only from your own records. Add your first transaction to get started.",
+  "emptyStatsTitle": "Your statistics will appear here",
+  "emptyTransactionsBody": "Record your first income or expense to see your balance come to life.",
+  "emptyTransactionsTitle": "No transactions yet",
+  "endDateOptional": "End date (optional)",
+  "ended": "Ended",
+  "errorGeneric": "Please try again. Your data is safe.",
+  "errorSaving": "Could not save. Please try again.",
+  "errorTitle": "Something went wrong",
+  "exceededAlwaysNote": "You are always notified when a budget is exceeded (100%).",
+  "excelContents": "Excel workbook with Summary, Transactions, Categories and Budget sheets.",
+  "exchangeRates": "Exchange rates",
+  "expense": "Expense",
+  "expenseOverview": "Expense overview",
+  "expenses": "Expenses",
+  "exportData": "Export",
+  "fileBackup": "Backup file",
+  "fileBackupBody": "Export everything to a JSON file you can keep or move to another phone, and import it later.",
+  "filterByCategory": "Filter by category",
+  "finance": "Finance",
+  "format": "Format",
+  "freqDaily": "Daily",
+  "freqMonthly": "Monthly",
+  "freqWeekly": "Weekly",
+  "freqYearly": "Yearly",
+  "frequency": "Frequency",
+  "fromRecurring": "Recurring payment",
+  "goal": "Goal",
+  "goalCompleted": "Goal marked as completed",
+  "goalName": "Goal name",
+  "goalNameHint": "e.g. New laptop",
+  "goalReachedSnack": "Congratulations — you reached your target!",
+  "goalReopened": "Goal reopened",
+  "goalSaved": "Goal saved",
+  "goodAfternoon": "Good afternoon",
+  "goodEvening": "Good evening",
+  "goodMorning": "Good morning",
+  "guestUser": "HisobAI user",
+  "hideAmounts": "Hide amounts",
+  "hideAmountsHint": "Mask balances and amounts on screen",
+  "highestExpense": "Highest expense",
+  "history": "History",
+  "icon": "Icon",
+  "importData": "Import from file",
+  "income": "Income",
+  "incomeVsExpenses": "Income vs expenses",
+  "initialBalance": "Initial balance",
+  "initialBalanceHint": "Money you already had before you started using HisobAI. It is added to your balance but not counted as income.",
+  "initialBalanceOptional": "Initial balance (optional)",
+  "insights": "Insights",
+  "insightsNotEnoughData": "Add a few more transactions and HisobAI will start showing personal insights here.",
+  "insufficientDataBadge": "Not enough data",
+  "invalidBackup": "This file is not a valid HisobAI backup.",
+  "language": "Language",
+  "last3Months": "Last 3 months",
+  "lastBackup": "Last backup: {date}",
+  "@lastBackup": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "latest": "Latest",
+  "limit": "Limit",
+  "localDataNote": "Your data lives only on this device unless you export it. Make regular backups.",
+  "localProfileNote": "No account needed · data stays on this device",
+  "lowestExpense": "Lowest expense",
+  "manage": "Manage",
+  "markCompleted": "Mark as completed",
+  "monthly": "Monthly",
+  "monthlyBudget": "Monthly budget",
+  "monthlyExpenseTrend": "Monthly expense trend",
+  "monthlyLimit": "Monthly limit",
+  "more": "More",
+  "name": "Name",
+  "navAdd": "Add transaction",
+  "navAssistant": "Assistant",
+  "navHome": "Home",
+  "navProfile": "Profile",
+  "navStats": "Statistics",
+  "netCashFlow": "Net cash flow",
+  "newCategory": "New category",
+  "newGoal": "New goal",
+  "next": "Next",
+  "nextDue": "Next: {date}",
+  "@nextDue": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "noBudgetBody": "Set a spending limit to track your month",
+  "noBudgetTitle": "No monthly budget yet",
+  "noCategoryLimits": "No category limits yet. Add one to control a specific kind of spending.",
+  "noCloudBackup": "No cloud backup found",
+  "noDataForPeriod": "No transactions for this period",
+  "noDeadline": "No deadline",
+  "noEntriesYet": "No deposits yet.",
+  "noRateShort": "no exchange rate",
+  "noRatesBody": "Without a rate HisobAI keeps UZS and USD totals separate. Add a rate to see combined amounts.",
+  "noRatesTitle": "No exchange rates",
+  "noRepaymentsYet": "No repayments yet.",
+  "noResultsBody": "Try different search words or filters.",
+  "noResultsTitle": "Nothing found",
+  "notFound": "Not found",
+  "notFoundBody": "This record no longer exists.",
+  "notSet": "Not set",
+  "noteOptional": "Note (optional)",
+  "notifications": "Notifications",
+  "notificationsHint": "Payment reminders and budget alerts",
+  "ofAmount": "of {amount}",
+  "@ofAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "onbBudgetBody": "Set monthly limits and get warned before you overspend.",
+  "onbBudgetTitle": "Manage your budget",
+  "onbGoalsBody": "Save for what matters, track debts and recurring payments — all in one place.",
+  "onbGoalsTitle": "Reach your savings goals",
+  "onbNoAccountNote": "No email, phone number or account is required. Your data stays on this device.",
+  "onbSetupBody": "You can change all of this later in Profile.",
+  "onbSetupTitle": "Let’s set things up",
+  "onbStart": "Start using HisobAI",
+  "onbUnderstandBody": "See where every so‘m and dollar goes with clear charts and honest insights from your own records.",
+  "onbUnderstandTitle": "Understand your money",
+  "onbWelcomeBody": "A calm, private place for your money. No registration — start in seconds.",
+  "onbWelcomeTitle": "Welcome to HisobAI",
+  "openSourceLicenses": "Open-source licenses",
+  "operationFailed": "The operation failed. Nothing was changed.",
+  "original": "Original",
+  "originalAmount": "Original amount",
+  "originalBelowPaid": "The original amount cannot be less than what has already been repaid.",
+  "overBudget": "Over budget",
+  "overview": "Overview",
+  "paid": "Paid",
+  "paused": "Paused",
+  "payInFull": "Pay in full",
+  "paymentMethod": "Payment method",
+  "pdfContents": "Branded PDF with summary, category breakdown, budget overview and full transaction list.",
+  "perMonthNeeded": "{amount} / month needed",
+  "@perMonthNeeded": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "periodLastMonth": "last month",
+  "periodLastMonthTitle": "Last month",
+  "periodThisMonth": "this month",
+  "periodThisMonthTitle": "This month",
+  "personOrOrganization": "Person or organization",
+  "pmBankTransfer": "Bank transfer",
+  "pmCard": "Card",
+  "pmCash": "Cash",
+  "pmMobileWallet": "Mobile wallet",
+  "pmOther": "Other",
+  "preferences": "Preferences",
+  "preview": "Preview",
+  "previous": "Previous",
+  "primaryCurrency": "Primary currency",
+  "privacyAiBody": "The assistant is a built-in, rule-based analysis engine. It is not connected to an external AI service and only uses the records you entered.",
+  "privacyAiTitle": "About the AI assistant",
+  "privacyAndAbout": "Privacy & about",
+  "privacyCloudBody": "Cloud backup is off by default and only works if this build is connected to Firebase. When you turn it on, an anonymous identity is created and your backup is stored in a private area only that identity can access.",
+  "privacyCloudTitle": "Optional cloud backup",
+  "privacyLocalBody": "All records are stored in a local database on this phone. HisobAI works fully offline. Local data is not automatically backed up — use Backup & sync to export a copy.",
+  "privacyLocalTitle": "Your data stays on your device",
+  "privacyNoAccountBody": "HisobAI does not ask for an email, phone number, Google or Apple account.",
+  "privacyNoAccountTitle": "No registration",
+  "privacySecurityBody": "Data is protected by your phone’s app sandbox and device encryption. The app database itself is not additionally encrypted, and exported backup files are plain JSON — keep them somewhere safe. Use a screen lock on your device.",
+  "privacySecurityTitle": "Security",
+  "progress": "Progress",
+  "rate": "Rate",
+  "rateManualNote": "Rates are entered by you; HisobAI does not download rates from the internet.",
+  "recentTransactions": "Recent transactions",
+  "recordRepayment": "Record repayment",
+  "recurringAutoNote": "Due payments are recorded automatically each time you open the app, exactly once per due date. Reminders are scheduled with your phone so they arrive even if the app is closed.",
+  "recurringBackfillNote": "The start date is in the past: payments since that date will be recorded when you save.",
+  "recurringPayments": "Recurring payments",
+  "recurringSaved": "Recurring payment saved",
+  "recurringTitleHint": "e.g. Rent, Internet, Netflix",
+  "remaining": "Remaining",
+  "remainingAmount": "Remaining: {amount}",
+  "@remainingAmount": {
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "reminder": "Reminder",
+  "reminderBody": "{title}: {amount} is due today.",
+  "@reminderBody": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      },
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "reminderHint": "Notify me at 9:00 on the due date",
+  "reminderTitle": "Payment due today",
+  "reopenGoal": "Reopen goal",
+  "repaymentRecorded": "Repayment recorded",
+  "repaymentTooLarge": "The repayment is larger than the remaining amount.",
+  "repayments": "Repayments",
+  "reportEmptyHint": "Choose another period or add transactions first.",
+  "reportFailed": "Could not create the report. Please try again.",
+  "reportPeriodLabel": "Report period",
+  "reportSaved": "Saved {name}",
+  "@reportSaved": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "reports": "Reports",
+  "resetData": "Reset all data",
+  "resetDataBody": "All transactions, budgets, goals, debts, recurring payments, rates, chat history and settings will be permanently deleted from this device. Export a backup first if you may need them.",
+  "resetDataConfirm": "I understand this cannot be undone",
+  "resetDataTitle": "Delete all data?",
+  "restore": "Restore",
+  "restoreBackupBody": "Backup from {date}: {tx} transactions, {goals} goals, {debts} debts. All current data on this device will be replaced.",
+  "@restoreBackupBody": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "tx": {
+        "type": "int"
+      },
+      "goals": {
+        "type": "int"
+      },
+      "debts": {
+        "type": "int"
+      }
+    }
+  },
+  "restoreBackupTitle": "Replace all data?",
+  "restoreDone": "Data restored",
+  "rptBudget": "Budget",
+  "rptBudgetOverview": "Budget overview",
+  "rptCategoryBreakdown": "Categories",
+  "rptCount": "Count",
+  "rptFinancialReport": "Financial report",
+  "rptGenerated": "Generated",
+  "rptMetric": "Metric",
+  "rptPeriod": "Report period",
+  "rptRate": "Rate",
+  "rptRatesUsed": "Exchange rates",
+  "rptReport": "Report",
+  "rptShare": "Share",
+  "rptSummary": "Summary",
+  "rptTransactions": "Transactions",
+  "rptType": "Type",
+  "rptUnconverted": "Not converted",
+  "rptUnconvertedNote": "Amounts in other currencies without an exchange rate are shown separately and not included in totals.",
+  "rptUsed": "Used",
+  "save": "Save",
+  "saveChanges": "Save changes",
+  "saveToDevice": "Save",
+  "saved": "Saved",
+  "savingsAccountingNote": "Savings goals track money you set aside. Deposits and withdrawals are not counted as income or expenses.",
+  "savingsGoals": "Savings goals",
+  "searchTransactions": "Search by title or note",
+  "send": "Send",
+  "setBudget": "Set budget",
+  "share": "Share",
+  "showAmounts": "Show amounts",
+  "skip": "Skip",
+  "sort": "Sort",
+  "sortAmountHigh": "Amount: high to low",
+  "sortAmountLow": "Amount: low to high",
+  "sortNewest": "Newest first",
+  "sortOldest": "Oldest first",
+  "source": "Source",
+  "sourceManual": "Entered manually",
+  "spent": "Spent",
+  "startDate": "Start date",
+  "statistics": "Statistics",
+  "statsMissingRateNote": "Some transactions are in another currency and are excluded until you add an exchange rate.",
+  "target": "Target",
+  "targetAmount": "Target amount",
+  "targetDateOptional": "Target date (optional)",
+  "theme": "Theme",
+  "themeDark": "Dark",
+  "themeLight": "Light",
+  "themeSystem": "System",
+  "thisMonth": "This month",
+  "thisMonthSuffix": "this month",
+  "thisYear": "This year",
+  "thresholdsSummary": "Warn at {warning}% and {critical}%, and when exceeded",
+  "@thresholdsSummary": {
+    "placeholders": {
+      "warning": {
+        "type": "int"
+      },
+      "critical": {
+        "type": "int"
+      }
+    }
+  },
+  "title": "Title",
+  "titleHintExpense": "e.g. Groceries at Korzinka",
+  "titleHintIncome": "e.g. October salary",
+  "today": "Today",
+  "total": "Total",
+  "totalBalance": "Total balance",
+  "totalForPeriod": "Total for period",
+  "totalIOwe": "I owe",
+  "totalMonthlyBudget": "Total monthly budget",
+  "totalOwedToMe": "Owed to me",
+  "transactionAdded": "Transaction added",
+  "transactionDeleted": "Transaction deleted",
+  "transactionDetails": "Transaction details",
+  "transactionUpdated": "Transaction updated",
+  "updated": "Updated",
+  "validationAmountInvalid": "Enter a valid number",
+  "validationAmountPositive": "Amount must be greater than zero",
+  "validationAmountRequired": "Enter an amount",
+  "validationCategoryRequired": "Choose a category",
+  "validationEndBeforeStart": "End date cannot be before the start date",
+  "validationNameRequired": "Enter a name",
+  "validationTitleRequired": "Enter a title",
+  "version": "Version",
+  "viewAll": "View all",
+  "vsLastMonth": "vs last month",
+  "warningAt": "Warning at",
+  "weekly": "Weekly",
+  "weeklyComparison": "Weekly comparison",
+  "withdraw": "Withdraw",
+  "withdrawTooMuch": "You can’t withdraw more than is saved.",
+  "yesterday": "Yesterday"
+}
